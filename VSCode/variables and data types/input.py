@@ -1,4 +1,5 @@
 # INPUT function is used to get input from the user
+# input is always string until n unless specified
 Name = input("name :")
 Age = int(input("age :"))
 
