@@ -1,6 +1,9 @@
-a = int(input("Enter number 1: "))
+a = int(input("Enter number 1: "))  
 b = int(input("Enter number 2: "))
 
 print("Number 1 is: ", a)
 print("Number 2 is: ", b)
 print("Sum is: ", a + b)
+
+#int is imp else the whole value would be considered as a string and concatenation will take place
+

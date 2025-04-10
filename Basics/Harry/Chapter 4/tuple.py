@@ -8,4 +8,3 @@ print(type(a))
 
 b = (1 , 2 , "Kashvi" , "Orange" , 23.21)
 print(type(b))
-

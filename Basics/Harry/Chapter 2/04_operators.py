@@ -38,5 +38,4 @@ print("True and True is", True and True)
 print("False and True is", False and True)
 print("False and False is", False and False)
 
-print(not(True))  #jo true ko false or false ko true bnade use 'not' operator kebhte h
-
+print(not(True))

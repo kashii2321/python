@@ -9,4 +9,3 @@ print(fruits[1])
 # indexing starts from 0 
 
 print(fruits[1:5])
-# slicing is same as strings
