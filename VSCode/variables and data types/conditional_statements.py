@@ -10,11 +10,20 @@
 
 Light = input("Light :")
 if(Light == "Green"):
-    print("Go")
+     print("Go")
 elif(Light == "Red"):
-    print("Stop")
+     print("Stop")
 elif(Light == "Yellow"):
-    print("Wait")
+     print("Wait")
 else:
-    print("Light is broken")
+     print("Light is broken")
 
+# nesting - if statement ke andr ek or if statement likhna
+Age = int(input(" Enter the age : "))
+if(Age >=18):
+    if(Age >=80):
+       print("Cannot drive")
+    else:
+        print("Can drive")
+else:
+    print("Cannot drive")
