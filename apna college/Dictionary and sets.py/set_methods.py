@@ -15,8 +15,18 @@ print(Info)
 # agr koi list dalege set mein jo ki mutable hota to pure set ki hashable value change hojaygi jisse prob aaygi
 
 # set.clear() - it empties the set
-# Info.clear()
-# print(Info)
+Info.clear()
+print(Info)
 
 # set.pop() - to remove a random value
 print(Info.pop()) # koi bhi random value
+
+# set.union(set2) - combine 2 sets values and returns a new set
+set1 = {1,2,3,4} 
+set2 = {5,6,7,1}
+print(set1.union(set2))
+print(set1)
+print(set2)
+
+# set.intersection(set2) - to get the common values of two sets and returns a new set
+print(set1.intersection(set2))
