@@ -37,3 +37,20 @@ print(list(student.items())[2])
 # ab difference dono mein ye h ki dict["key"] isme agr value exist nhi krti it will give error
 # but d.get("key") mein none return hoke aayga
 
+# agr error aajata h kisi bhi line mein and uske baad bhi kch code h to vo bhi print nhi hoga
+# uska return bhi nhi aayga which isnt a stable code
+print(student.get("school"))
+print("hi")
+# ab jb humne d.get("key") wala function use kra usse error (none) to aaya but uske baad wala code bhi run hua
+# which shows a more stable code and is an efficient way
+
+# mydict.update(newDict) - insert the specified items to the dictionary
+student.update({"city" : "Delhi"})
+print(student)
+
+# ye hum nyi dictionary bnake bhi purani mein add kr skte h 
+new_dict = {"Food" : "Chaap"}
+student.update(new_dict)
+print(student)
+
+
