@@ -8,5 +8,8 @@
 # ya kch bhi, we need to tell it before, if not stated python assumes that we will read it
 # so if we open it in a read mode but we are trying to write in it, it will show error
 
-f = open("demo.txt","r")
+F = open("demo.txt","r")
 # agr yhi pr vo file nhi h khi or saved h to hume uska pura path likhna pdhta h
+Data = f.read()
+print(Data)
+print(type(Data))
