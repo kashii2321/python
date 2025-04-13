@@ -8,11 +8,11 @@
 # ya kch bhi, we need to tell it before, if not stated python assumes that we will read it
 # so if we open it in a read mode but we are trying to write in it, it will show error
 
-F = open("C:\Users\kashv\OneDrive\Desktop\coding\python\apna college\File handling\File handling\demo.txt","r")
-# agr yhi pr vo file nhi h khi or saved h to hume uska pura path likhna pdhta h
-Data = F.read()
-print(Data)
-print(type(Data))
+# F = open("C:\Users\kashv\OneDrive\Desktop\coding\python\apna college\File handling\File handling\demo.txt","r")
+# # agr yhi pr vo file nhi h khi or saved h to hume uska pura path likhna pdhta h
+# Data = F.read()
+# print(Data)
+# print(type(Data))
 
 # with open("demo.txt","r") as file:
 #     data = file.read()
