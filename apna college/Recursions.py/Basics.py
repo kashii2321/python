@@ -23,4 +23,10 @@ show(5)
 # general cases mein hum loops hi use krte h, recursion special cases mein hi use krte h hum
 
 # recursion through factorial
+def fact(n):
+    if(n==0 or n==1):
+        return 1
+    else:
+        return n * fact(n-1)
 
+print(fact(5))
