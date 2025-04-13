@@ -13,7 +13,15 @@ F = open("demo.txt","r")
 Data = F.read()
 print(Data)
 print(type(Data))
-
+F.close()
 # with open("demo.txt","r") as file:
 #     data = file.read()
 #     print(data)
+
+# r - open
+# w - write and truncate
+# x - create a new file and open it for writing
+# b - binary mode
+# t - text mode
+# + - open a desk file for updating(Reading and writing)
+# a - open for writing, appending to the end of the file if it exists
